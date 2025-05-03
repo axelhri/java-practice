@@ -132,7 +132,7 @@ public class practice {
         System.out.printf("\nid : %6d", id3);
         System.out.printf("\nid : %d", id4);*/
 
-        Scanner scanner = new Scanner(System.in);
+/*        Scanner scanner = new Scanner(System.in);
 
         double principal;
         double rate;
@@ -156,6 +156,21 @@ public class practice {
 
         System.out.printf("The amount after %d year/s is $%.2f",years,amount);
 
-        scanner.close();
-    }
+        scanner.close();*/
+
+/*        String password = "MyCoolPassword1234;";
+
+        int length = password.length();
+        char letter = password.charAt(0);
+        int index = password.indexOf("P");
+        int lastIndex = password.lastIndexOf("o");
+
+        System.out.println(letter);
+        System.out.println(index);
+        System.out.println(lastIndex);
+
+
+        String passOrFail = password.length() < 16 ?  "Your password must have atleast 16 characters" : "Your password is now %s";
+
+        System.out.printf(passOrFail,password);    }*/
 }
