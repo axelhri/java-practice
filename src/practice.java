@@ -100,7 +100,7 @@ public class practice {
             System.out.println("Both rainy and sunny.");
         }*/
 
-        String name = "Luffy";
+/*        String name = "Luffy";
         char firstLetter = 'L';
         int age = 19;
         double height = 173.5;
@@ -130,6 +130,32 @@ public class practice {
         System.out.printf("\nid : %04d", id1);
         System.out.printf("\nid : %03d", id2);
         System.out.printf("\nid : %6d", id3);
-        System.out.printf("\nid : %d", id4);
+        System.out.printf("\nid : %d", id4);*/
+
+        Scanner scanner = new Scanner(System.in);
+
+        double principal;
+        double rate;
+        int timesCompounded;
+        int years;
+        double amount;
+
+        System.out.print("Enter the principal amount : ");
+        principal = scanner.nextDouble();
+
+        System.out.print("Enter the interest rate (in %) : ");
+        rate = scanner.nextDouble() / 100;
+
+        System.out.print("Enter the number of times compounded per year : ");
+        timesCompounded = scanner.nextInt();
+
+        System.out.print("Enter the number of years : ");
+        years = scanner.nextInt();
+
+        amount = principal * Math.pow(1 + rate / timesCompounded, timesCompounded * years);
+
+        System.out.printf("The amount after %d year/s is $%.2f",years,amount);
+
+        scanner.close();
     }
 }
