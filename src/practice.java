@@ -100,5 +100,36 @@ public class practice {
             System.out.println("Both rainy and sunny.");
         }*/
 
+        String name = "Luffy";
+        char firstLetter = 'L';
+        int age = 19;
+        double height = 173.5;
+        boolean isPirate = true;
+
+        System.out.printf("Hello %s", name);
+        System.out.printf("\n%c is the first letter of your name", firstLetter);
+        System.out.printf("\nYou are %d years old", age);
+        System.out.printf("\nYour height is %.1f cm", height);
+        System.out.printf("\nAre you a pirate ? %b", isPirate);
+
+        System.out.printf("\n%s is %d years old, his height is %f cm",name,age,height);
+
+        double price1 = 9.99;
+        double price2 = 100.15;
+        double price3 = -54.01;
+
+        System.out.printf("\n%.1f",price1);
+        System.out.printf("\n%.2f",price2);
+        System.out.printf("\n%.3f",price3);
+
+        int id1 = 1;
+        int id2 = 23;
+        int id3 = 456;
+        int id4 = 7890;
+
+        System.out.printf("\nid : %04d", id1);
+        System.out.printf("\nid : %03d", id2);
+        System.out.printf("\nid : %6d", id3);
+        System.out.printf("\nid : %d", id4);
     }
 }
