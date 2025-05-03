@@ -25,9 +25,6 @@ public class cart {
             System.out.print("You have bought " + quantity + ' ' + item + "\nYour total is " + "$" + totalPrice);
         }
 
-
-
-
         input.close();
 
     }

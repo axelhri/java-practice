@@ -1,3 +1,4 @@
+import java.util.Random;
 import java.util.Scanner;
 
 public class practice {
@@ -24,7 +25,7 @@ public class practice {
             System.out.println(i);
         }*/
 
-        Scanner input = new Scanner(System.in);
+        /*Scanner input = new Scanner(System.in);*/
 
 /*        System.out.print("Enter your name : ");
         String name = input.nextLine();
@@ -46,7 +47,7 @@ public class practice {
             System.out.println("You are not a student");
         }*/
 
-        double width = 0;
+/*        double width = 0;
         double height = 0;
         double area = 0;
 
@@ -58,8 +59,46 @@ public class practice {
 
         area = width * height;
 
-        System.out.println("area is " + area + " cm²");
+        System.out.println("area is " + area + " cm²");*/
 
-        input.close();
+        /*input.close();*/
+
+/*        Random random = new Random();
+
+        int num1;
+        int num2;
+        int num3;
+        double num4;
+
+        num1 = random.nextInt(1,101);
+        num2 = random.nextInt(1,101);
+        num3 = random.nextInt(1,101);
+        num4 = random.nextDouble(1,101);
+
+        System.out.println(num1);
+        System.out.println(num2);
+        System.out.println(num3);
+        System.out.println(num4);
+
+        System.out.println((num1 + num2 + num3) * 5 / num4);
+
+        boolean isRainy;
+        boolean isSunny;
+
+        isRainy = random.nextBoolean();
+        isSunny = random.nextBoolean();
+
+        System.out.println("Rainy : " + isRainy + "\nSunny : " + isSunny);
+
+        if (isSunny && !isRainy) {
+            System.out.println("Sunny day with no rain.");
+        } else if (!isSunny && isRainy) {
+            System.out.println("Rainy day with no sun.");
+        } else if (!isSunny && !isRainy) {
+            System.out.println("No sun and no rain.");
+        } else {
+            System.out.println("Both rainy and sunny.");
+        }*/
+
     }
 }
