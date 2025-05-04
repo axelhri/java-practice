@@ -172,5 +172,23 @@ public class practice {
 
         String passOrFail = password.length() < 16 ?  "Your password must have atleast 16 characters" : "Your password is now %s";
 
-        System.out.printf(passOrFail,password);    }*/
+        System.out.printf(passOrFail,password);    */
+
+/*        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter the day of the week : ");
+
+        String day = input.nextLine();
+
+        switch (day) {
+            case "Monday" -> System.out.println("It is Monday (1/7) 🥲");
+            case "Tuesday" -> System.out.println("It is Tuesday (2/7) 😒");
+            case "Wednesday" -> System.out.println("It is Wednesday (3/7) 😑");
+            case "Thursday" -> System.out.println("It is Thursday (4/7) 😐");
+            case "Friday" -> System.out.println("It is Friday (5/7) 😊");
+            case "Saturday" -> System.out.println("It is Saturday (6/7) 😃");
+            case "Sunday" -> System.out.println("It is Sunday (7/7) 😄");
+            default -> System.out.printf("%s is not a day",day);*/
+        }
+    }
 }
