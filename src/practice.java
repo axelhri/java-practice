@@ -188,7 +188,49 @@ public class practice {
             case "Friday" -> System.out.println("It is Friday (5/7) 😊");
             case "Saturday" -> System.out.println("It is Saturday (6/7) 😃");
             case "Sunday" -> System.out.println("It is Sunday (7/7) 😄");
-            default -> System.out.printf("%s is not a day",day);*/
-        }
+            default -> System.out.printf("%s is not a day",day);
+        }*/
+
+/*        String name = "Axel";
+        int age = 25;
+
+        happyBirthday(name, age);
+        test("This is a string");
+        System.out.println(square(3));
+        System.out.println(cube(3));
+        String fullname = getFullName("Axel", "Houairi");
+        System.out.println(fullname);
+
+        if (ageCheck(18)) {
+            System.out.println("You can enter");
+        } else {
+            System.out.println("You cannot enter");
+        }*/
     }
+
+   /* static void happyBirthday (String name, int age) {
+        System.out.println("Happy birthday to you !");
+        System.out.printf("Happy birthday dear %s !\n",name);
+        System.out.printf("You are %d years old !\n",age);
+        System.out.println();
+    }
+    static void test (String param1) {
+        System.out.println(param1);
+    }
+    static double square(double number) {
+        return number * number;
+    }
+    static double cube(double number) {
+        return number * number * number;
+    }
+    static String getFullName(String first, String last) {
+        return first + " " + last;
+    }
+    static boolean ageCheck(int age) {
+        if (age >= 18) {
+            return true;
+        } else {
+            return false;
+        }
+    }*/
 }
