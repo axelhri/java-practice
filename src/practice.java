@@ -206,6 +206,9 @@ public class practice {
         } else {
             System.out.println("You cannot enter");
         }*/
+
+/*        String pizza = bakePizza("flat bread", "mozzarella", "pepperoni");
+        System.out.println(pizza);*/
     }
 
    /* static void happyBirthday (String name, int age) {
@@ -232,5 +235,15 @@ public class practice {
         } else {
             return false;
         }
+    }*/
+
+/*    static String bakePizza(String bread) {
+        return bread + " pizza";
+    }
+    static String bakePizza(String bread, String cheese) {
+        return cheese + bread + " pizza";
+    }
+    static String bakePizza(String bread, String cheese, String topping) {
+        return topping + " " + cheese + " " + bread + " pizza";
     }*/
 }
