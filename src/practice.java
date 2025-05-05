@@ -253,7 +253,45 @@ public class practice {
 
 
         input.close();*/
-    }
+
+/*        Scanner input = new Scanner(System.in);
+
+        boolean isFound = false;*/
+  /*      int[] numbers = {101,28,5,84,51,2};
+        int target = 51;*/
+
+ /*       String[] fruits = {"apple","banana","orange"};
+        System.out.print("Enter a fruit to search for : ");
+        String stringTarget = input.nextLine();*/
+
+
+       /* String numTarget = input.nextLine();*/
+
+ /*       for (int i = 0; i < numbers.length; i++) {
+                if (target == numbers[i]) {
+                    System.out.println("Element found at index : " + i);
+                    System.out.println("The number found is " + numbers[i]);
+                    isFound = true;
+                    break;
+                }
+            }*/
+
+/*        for (int i = 0; i < fruits.length; i++) {
+            if (fruits[i].equals(stringTarget)) {
+                System.out.println("Element found at index : " + i);
+                System.out.println("The fruit found is " + fruits[i]);
+                isFound = true;
+                break;
+            }
+        }
+
+            if (!isFound) {
+                System.out.println("Item not found");
+            }
+
+            input.close();*/
+        }
+
 
    /* static void happyBirthday (String name, int age) {
         System.out.println("Happy birthday to you !");
@@ -290,4 +328,4 @@ public class practice {
     static String bakePizza(String bread, String cheese, String topping) {
         return topping + " " + cheese + " " + bread + " pizza";
     }*/
-}
+    }
