@@ -229,6 +229,30 @@ public class practice {
         }
 
         System.out.println(numOfFruits);*/
+
+       /* Scanner input = new Scanner(System.in);
+
+        String[] foods;
+        int size;
+
+        System.out.print("What number of food do you want ? : ");
+
+        size = input.nextInt();
+        input.nextLine();
+
+        foods = new String[size];
+
+        for (int i = 0; i < foods.length; i++) {
+            System.out.print("Enter a food : ");
+            foods[i] = input.nextLine();
+        }
+
+        for (String food : foods) {
+            System.out.println(food);
+        }
+
+
+        input.close();*/
     }
 
    /* static void happyBirthday (String name, int age) {
