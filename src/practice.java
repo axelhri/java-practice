@@ -294,6 +294,36 @@ public class practice {
 /*        System.out.println(add(1,2,3,4));
         System.out.println(average(4545,20,412,70));*/
 
+/*        String[] vegetables = {"potato", "orange", "carrot"};
+        String[] meats = {"chicken", "pork", "beef", "fish"};
+
+        String[][] groceries = {
+                {"apple", "orange", "banana"},
+                vegetables,
+                meats};
+
+        groceries[0][2] = "mango";
+        groceries[1][1] = "spinach";
+        groceries[2][3] = "deer";
+
+        for (String[] foods : groceries) {
+            for (String food : foods) {
+                System.out.print(food + " ");
+            }
+            System.out.println();
+        }
+
+        char[][] telephone = {{'1','2','3'},
+                {'4','5','6'},
+                {'7','8','9'},
+                {'*','0','#'}};
+
+        for (char[] row : telephone) {
+            for (char number : row) {
+                System.out.print(number + " ");
+            }
+            System.out.println();
+        }*/
         }
 
 /*        static int add(int... numbersArray){
