@@ -1,5 +1,6 @@
 import java.util.Random;
 import java.util.Scanner;
+import java.util.Arrays;
 
 public class practice {
     public static void main(String[] args) {
@@ -209,6 +210,25 @@ public class practice {
 
 /*        String pizza = bakePizza("flat bread", "mozzarella", "pepperoni");
         System.out.println(pizza);*/
+
+        /*String[] fruits = {"apple","banana","mango"};
+
+        fruits[0] = "pineapple";
+
+        int numOfFruits = fruits.length;
+
+        for (int i = 0; i < fruits.length; i++) {
+            System.out.println(fruits[i]);
+        }
+
+        Arrays.sort(fruits);
+        Arrays.fill(fruits,"tomato");
+
+        for (String fruit : fruits) {
+            System.out.println(fruit);
+        }
+
+        System.out.println(numOfFruits);*/
     }
 
    /* static void happyBirthday (String name, int age) {
