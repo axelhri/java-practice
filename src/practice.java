@@ -290,7 +290,33 @@ public class practice {
             }
 
             input.close();*/
+
+/*        System.out.println(add(1,2,3,4));
+        System.out.println(average(4545,20,412,70));*/
+
         }
+
+/*        static int add(int... numbersArray){
+           int sum = 0;
+           for (int number : numbersArray) {
+               System.out.println(number);
+               sum += number;
+           }
+           return sum;
+        }
+
+        static double average(double... numbersArray) {
+        double sum = 0;
+
+        if (numbersArray.length == 0) {
+            return 0;
+        }
+
+        for (double number : numbersArray) {
+            sum += number;
+        }
+        return sum / numbersArray.length;
+        }*/
 
 
    /* static void happyBirthday (String name, int age) {
