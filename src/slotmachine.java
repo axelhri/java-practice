@@ -68,7 +68,7 @@ public class slotmachine {
 
     static int getPayout(String[] row, int bet) {
 
-        if (row[0].equals(row[1])) {
+        if (row[0].equals(row[1]) && row[1].equals(row[2])) {
             return switch (row[0]) {
                 case "🍒" -> bet * 3;
                 case "🍉" -> bet * 4;
