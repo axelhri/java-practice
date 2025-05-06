@@ -1,6 +1,7 @@
-import java.util.Random;
-import java.util.Scanner;
-import java.util.Arrays;
+import com.sun.source.tree.Tree;
+
+import java.awt.image.ImageProducer;
+import java.util.*;
 
 public class practice {
     public static void main(String[] args) {
@@ -323,6 +324,84 @@ public class practice {
                 System.out.print(number + " ");
             }
             System.out.println();
+        }*/
+
+ /*       ArrayList<String> meats = new ArrayList<>(Arrays.asList("Apple", "Banana", "Cerise"));
+        meats.forEach(item -> System.out.println(item));
+
+        List<String> fruits = new ArrayList<>();
+        fruits.add("banana");
+        fruits.add("apple");
+        fruits.add("lemon");
+        fruits.add("orange");
+        fruits.add("pineapple");
+
+
+        fruits.set(2, "mango");
+        System.out.println(fruits.get(2));
+
+        fruits.remove(4);
+        fruits.forEach(element -> System.out.println(element));
+
+        System.out.println(fruits.size());
+
+        for (String fruit : fruits) {
+            System.out.println(fruit);
+        }
+
+        Set<String> strawhat = new HashSet<>();
+
+        strawhat.add("Luffy");
+        strawhat.add("Zoro");
+        strawhat.add("Nami");
+
+        System.out.println(strawhat.contains("Luffy"));
+
+        for (String crewmates : strawhat) {
+            System.out.println(crewmates);
+        }*/
+
+        /*Map<String, Integer> marine = new HashMap<>();
+
+        marine.put("Akainu", 1);
+        marine.put("Kizaru", 2);
+        marine.put("Aokiji", 3);
+        marine.put("Fujitora", 3);
+
+        marine.remove("Aokiji");
+
+        for (Map.Entry<String, Integer> amirals : marine.entrySet()) {
+            System.out.println(amirals);
+        }*/
+
+ /*       Queue<Integer> num = new PriorityQueue<>();
+
+        num.add(10);
+        num.add(20);
+        num.add(30);
+        num.add(40);
+
+        int removeFirst = num.poll();
+
+        for (int number : num) {
+            System.out.println(number);
+        }*/
+
+/*        Deque<String> revolutionary = new ArrayDeque<>();
+
+        revolutionary.add("Dragon");
+        revolutionary.add("Ivankov");
+        revolutionary.add("Sabo");
+        revolutionary.add("Kuma");
+
+        System.out.println(revolutionary.peekFirst());
+        System.out.println(revolutionary.peekLast());
+        System.out.println(revolutionary.pollFirst());
+        System.out.println(revolutionary.pollLast());
+        System.out.println("************************");
+
+        for (String member : revolutionary) {
+            System.out.println(member);
         }*/
         }
 
