@@ -54,7 +54,19 @@ public class Main {
                 1
         );
 
+        Cyborg franky = new Cyborg(
+                "Cyborg",
+                "Straw Hat Pirates",
+                "Franky",
+                LocalDate.of(1485, 3, 9),
+                394_000_000L,
+                false,
+                false,
+                "Cola",
+                "Radical Beam"
+        );
+
         PirateDetails display = new PrintPirateDetails();
-        display.printPirate(usopp);
+        display.printPirate(franky);
     }
 }
