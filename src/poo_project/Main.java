@@ -7,7 +7,7 @@ public class Main {
 
         Swordsman zoro = new Swordsman(
                 "Human",
-                "Strawhat",
+                "Straw Hat",
                 "Roronoa Zoro",
                 LocalDate.of(1503,11,11),
                 1111000000L,
@@ -41,7 +41,20 @@ public class Main {
                 new String[]{"Electro Blade"}
         );
 
+        Shooter usopp = new Shooter(
+                "Human",
+                "Straw Hat",
+                "Usopp",
+                LocalDate.of(1500, 4, 1),
+                500_000_000L,
+                false,
+                true,
+                "Slingshot",
+                "Pop Greens",
+                1
+        );
+
         PirateDetails display = new PrintPirateDetails();
-        display.printPirate(pedro);
+        display.printPirate(usopp);
     }
 }
