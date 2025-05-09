@@ -66,7 +66,34 @@ public class Main {
                 "Radical Beam"
         );
 
+        DevilFruitUser luffy = new DevilFruitUser(
+                "Human",
+                "Straw Hat Pirates",
+                "Monkey D. Luffy",
+                LocalDate.of(1504, 5, 5),
+                3_000_000_000L,
+                false,
+                true,
+                "Mythical Zoan",
+                "Hito Hito no Mi, Model: Nika",
+                true
+        );
+
+        DevilFruitUser ener = new DevilFruitUser(
+                "Skypiean",
+                "God's Army",
+                "Enel",
+                LocalDate.of(1488, 5, 6),
+                500_000_000L,
+                false,
+                false,
+                "Logia",
+                "Goro Goro no Mi",
+                false
+        );
+
+
         PirateDetails display = new PrintPirateDetails();
-        display.printPirate(franky);
+        display.printPirate(ener);
     }
 }
